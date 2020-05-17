@@ -1,0 +1,50 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 10/04/2020 06:50
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-family:before { content: "\f100"; }
+.flaticon-research:before { content: "\f101"; }
+.flaticon-checklist:before { content: "\f102"; }
+.flaticon-project:before { content: "\f103"; }
+.flaticon-document:before { content: "\f104"; }
+.flaticon-language:before { content: "\f105"; }
+.flaticon-call-center:before { content: "\f106"; }
+.flaticon-process:before { content: "\f107"; }
+.flaticon-planner:before { content: "\f108"; }
+.flaticon-booking:before { content: "\f109"; }
+.flaticon-employee:before { content: "\f10a"; }
+.flaticon-paste:before { content: "\f10b"; }
+.flaticon-data:before { content: "\f10c"; }
+.flaticon-web-design:before { content: "\f10d"; }
+.flaticon-team:before { content: "\f10e"; }
+.flaticon-loan:before { content: "\f10f"; }
+.flaticon-routine:before { content: "\f110"; }
+.flaticon-fast:before { content: "\f111"; }
